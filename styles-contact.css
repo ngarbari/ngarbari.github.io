@@ -68,18 +68,24 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 50%; /*made div responsive*/
 	padding: 2%;
-    margin: 100px auto;
+    margin: 50px auto;
  	background: rgb(217, 197, 235); /*changed opacity to 1.0*/
 	text-align: center;
+	margin-top: 25px;
+	/*removed border*/
 }
 
    
 #logo {
-    margin-bottom: 8px;
-	/*removed logo border*/
+    width: 50%; /*made responsive*/
+	margin-bottom: 0px;
 	text-align: center;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	/*removed logo border*/
 }
 
 h1 {
@@ -87,37 +93,42 @@ h1 {
 	font-weight: 100;
 	font-style: normal;
 	font-size: 2.5em;
-    margin: 0px auto 10px auto;
-    color: rgb(99, 21, 79);
+	letter-spacing: 10px;
+	color: rgb(184, 69, 40);
+    margin-top: 0px; /*made top margin smaller*/
+	text-align: center; /* added this to center text wthout div*/
 }
 
 h2 {
 	font-family: didot, serif;
 	font-size: 1.5em;
 	font-style: italic; /*added italics*/
+	letter-spacing: 3px;
 	width: 350px; /*added this width edit*/
     line-height: 1.4;
-    color: #fff;
+    color: rgb(134, 26, 107);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
-	margin-top: 1.0em; /*added this margin edit*/
+	margin-top: 1.0em; /*added this part*/
+	text-align: center; /* added this to center text wthout div*/
 }
 
 p {
 	font-family: didot, serif;
 	font-size: 1.1em;
     line-height: 1.6;
-    color: rgb(99, 21, 79);
-	margin-top: 0.5em; /*added this margin edit*/
+    color: rgb(134, 26, 107);
+	margin-top: 0.5em; /*added this margin part*/
 }
 
 nav{
+	width: 50%; /*made responsive*/
 	font-family: didot, serif;
 	font-size: 1.2em;
-	width: 350px;
+	letter-spacing: 3px;
     margin: 0 auto;
-	border: dotted rgb(233, 115, 85);
-	border-width: 10px 1;
+	border: double rgb(233, 115, 85);
+	border-width: 10px 0;
 	text-align: center;
 	margin-top: 2em;
 }
@@ -132,12 +143,11 @@ nav a{
 	}
 
 a{
-	color:rgb(99, 21, 79);
+	color:rgb(184, 69, 40);
 	text-decoration: none;
 	font-weight: bold;
 	}
 
 a:hover{
 	color:rgb(255, 255, 255);
-	background:rgb(233, 115, 85);
 	}
