@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url(images/pexels_background.jpg) 
 		center center fixed no-repeat;
 	background-size: cover;
 	
@@ -71,15 +71,14 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(219, 88, 236, 0.75); /*this uses opacity of 75% for the background color*/
+ 	background: rgb(217, 197, 235); /*changed opacity to 1.0*/
 	text-align: center;
-	border: 4px white; /* removed dashed detail of border */
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed rgb(241, 221, 208);
+    margin-bottom: 8px;
+	/*removed logo border*/
 	text-align: center;
 }
 
@@ -87,34 +86,38 @@ h1 {
 	font-family: ivypresto-display, serif;
 	font-weight: 100;
 	font-style: normal;
-	font-size: 2em;
+	font-size: 2.5em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgb(99, 21, 79);
 }
 
 h2 {
 	font-family: didot, serif;
 	font-size: 1.5em;
+	font-style: italic; /*added italics*/
+	width: 350px; /*added this width edit*/
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+	margin-top: 1.0em; /*added this margin edit*/
 }
 
 p {
 	font-family: didot, serif;
-	font-size: 1.2em;
+	font-size: 1.1em;
     line-height: 1.6;
-    color: #fff;
+    color: rgb(99, 21, 79);
+	margin-top: 0.5em; /*added this margin edit*/
 }
 
 nav{
 	font-family: didot, serif;
 	font-size: 1.2em;
-	width: 400px;
+	width: 350px;
     margin: 0 auto;
-	border: dashed rgb(233, 115, 85);
-	border-width: 3px 0;
+	border: dotted rgb(233, 115, 85);
+	border-width: 10px 1;
 	text-align: center;
 	margin-top: 2em;
 }
@@ -129,12 +132,12 @@ nav a{
 	}
 
 a{
-	color:#444;
+	color:rgb(99, 21, 79);
 	text-decoration: none;
 	font-weight: bold;
 	}
 
 a:hover{
-	color:black;
-	background:rgb(174, 130, 231);
+	color:rgb(255, 255, 255);
+	background:rgb(233, 115, 85);
 	}
