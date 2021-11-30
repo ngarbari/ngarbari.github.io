@@ -71,15 +71,15 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(219, 88, 236, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px white; /* removed dashed detail of border */
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: 3px dashed rgb(241, 221, 208);
 	text-align: center;
 }
 
@@ -113,7 +113,7 @@ nav{
 	font-size: 1.2em;
 	width: 400px;
     margin: 0 auto;
-	border: dashed turquoise;
+	border: dashed rgb(233, 115, 85);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -136,5 +136,5 @@ a{
 
 a:hover{
 	color:black;
-	background:pink;
+	background:rgb(174, 130, 231);
 	}
