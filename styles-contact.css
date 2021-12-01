@@ -68,10 +68,10 @@ html, body {
 }
 
 .center {
-    width: 50%; /*made div responsive*/
+    width: 100%; /*made div responsive*/
 	padding: 2%;
     margin: 50px auto;
- 	background: rgb(217, 197, 235); /*changed opacity to 1.0*/
+ 	background: rgb(255, 255, 255, 1.0); /*changed opacity to 1.0*/
 	text-align: center;
 	margin-top: 25px;
 	/*removed border*/
@@ -90,7 +90,7 @@ html, body {
 
 h1 {
 	font-family: ivypresto-display, serif;
-	font-weight: 100;
+	font-weight: bold;
 	font-style: normal;
 	font-size: 2.5em;
 	letter-spacing: 10px;
@@ -101,36 +101,30 @@ h1 {
 
 h2 {
 	font-family: didot, serif;
-	font-size: 1.5em;
-	font-style: italic; /*added italics*/
-	letter-spacing: 3px;
+	font-size: 1.2em;
+	font-style: normal; /*added italics*/
+	letter-spacing: 2px;
 	width: 350px; /*added this width edit*/
     line-height: 1.4;
     color: rgb(134, 26, 107);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 	margin-top: 1.0em; /*added this part*/
+	margin-bottom: 3.0em; /*added this setting*/
 	text-align: center; /* added this to center text wthout div*/
-}
-
-p {
-	font-family: didot, serif;
-	font-size: 1.1em;
-    line-height: 1.6;
-    color: rgb(134, 26, 107);
-	margin-top: 0.5em; /*added this margin part*/
 }
 
 nav{
 	width: 50%; /*made responsive*/
 	font-family: didot, serif;
 	font-size: 1.2em;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
     margin: 0 auto;
-	border: double rgb(233, 115, 85);
-	border-width: 10px 0;
+	border: solid rgb(184, 69, 40);
+	border-width: 0.5px 0;
 	text-align: center;
 	margin-top: 2em;
+	margin-bottom: 2em;
 }
     
 nav li{
@@ -150,4 +144,5 @@ a{
 
 a:hover{
 	color:rgb(255, 255, 255);
+	background: rgb(184, 69, 40);
 	}
