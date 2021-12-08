@@ -71,7 +71,7 @@ html, body {
     width: 100%; /*made div responsive*/
 	padding: 2%;
     margin: 50px auto;
- 	background: rgb(255, 255, 255, 1.0); /*changed opacity to 1.0*/
+ 	background: rgba(255, 255, 255, 0); /*changed opacity to 0*/
 	text-align: center;
 	margin-top: 25px;
 	/*removed border*/
@@ -79,7 +79,7 @@ html, body {
 
    
 #logo {
-    width: 50%; /*made responsive*/
+	width: 35%; /*changed responsiveness from 50% to 35%*/
 	margin-bottom: 0px;
 	text-align: center;
 	display: block;
@@ -92,11 +92,11 @@ h1 {
 	font-family: ivypresto-display, serif;
 	font-weight: bold;
 	font-style: normal;
-	font-size: 2.5em;
+	font-size: 2.10em;
 	letter-spacing: 10px;
 	color: rgb(184, 69, 40);
     margin-top: 0px; /*made top margin smaller*/
-	text-align: center; /* added this to center text wthout div*/
+	text-align: center; /*added this to center text wthout div*/
 }
 
 h2 {
@@ -110,7 +110,7 @@ h2 {
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 	margin-top: 1.0em; /*added this part*/
-	margin-bottom: 3.0em; /*added this setting*/
+	margin-bottom: 1.5em; /*added this setting*/
 	text-align: center; /* added this to center text wthout div*/
 }
 
@@ -123,8 +123,8 @@ nav{
 	border: solid rgb(184, 69, 40);
 	border-width: 0.5px 0;
 	text-align: center;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
 }
     
 nav li{
