@@ -71,7 +71,7 @@ html, body {
     width: 100%; /*made div responsive*/
 	padding: 2%;
     margin: 50px auto;
- 	background: rgba(255, 255, 255, 0); /*changed opacity to 0*/
+ 	background: rgb(255, 255, 255); /*changed opacity to 0*/
 	text-align: center;
 	margin-top: 25px;
 	/*removed border*/
